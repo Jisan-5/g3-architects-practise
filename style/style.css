@@ -113,6 +113,7 @@ main {
 .facts-container{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
 }
 .fact-card{
   border: 1px solid #ff900e;
@@ -139,13 +140,16 @@ main {
     flex-direction: column;
     text-align: center;
   }
-  .team-img-container{
+  .team-img-container, .facts-container{
     grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
   }
   .our-features{
     margin: 5px;
   }
-  
+  .fact-card{
+  margin: 0 auto;
+}
 }
 
 /* mediam size devices */
