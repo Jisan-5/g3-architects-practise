@@ -109,6 +109,30 @@ main {
   margin-top: 130px;
 }
 
+/* Facts section */
+.facts-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.fact-card{
+  border: 1px solid #ff900e;
+  width: 240px;
+  height: 240px;
+   border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+.fact-number{
+  font-size: 2.5rem;
+}
+.fact-card > h5, h4{
+  margin: 10px;
+
+}
+
 /* Mobile devices responsive */
 @media screen and (max-width:576px) {
   .navbar , .nav-links, .teams{
